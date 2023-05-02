@@ -1,0 +1,22 @@
+body{
+    background-image: url(gradient_1.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-child{
+    flex: 1;
+    border: 2px solid;
+}
+
+.flex-child{
+    margin-right: 20px;
+    margin-left: 20px;
+}
